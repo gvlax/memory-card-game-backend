@@ -1,0 +1,38 @@
+{
+  "name": "express_rest_api_not_secure",
+  "version": "1.0.0",
+  "description": "Backend implementation for a memory card game",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 7.10.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "DEBUG=index,app,web-server,datastore,resource,cards node index.js"
+  },
+  "keywords": [
+    "express",
+    "rest",
+    "cards"
+  ],
+  "author": "maciej.gulak@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "3.5.0",
+    "body-parser": "1.17.1",
+    "config": "1.26.1",
+    "cors": "2.8.3",
+    "express": "4.15.2",
+    "morgan": "1.8.1",
+    "nedb": "1.8.0",
+    "request": "2.81.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
